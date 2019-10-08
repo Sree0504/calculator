@@ -1,0 +1,44 @@
+
+ #calculator{
+  width: 300px;
+  background: silver;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 10px lightcoral;
+}
+#answer{
+  width: 64%;
+  height: 40px;
+  display: inline-block;
+  text-align: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  margin: 5px 0px 5px 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background: lightgrey;
+}
+#clear{
+    width: 20%;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+}
+input {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 20px;
+  margin: 10px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 5px lightpink;
+}
+#equals{
+  background: #ccc;
+}
